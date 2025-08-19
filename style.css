@@ -1,0 +1,52 @@
+body {
+  /* Sørger for at bakgrunnen dekker hele skjermen */
+  margin: 0;
+  text-align: center;
+
+  /* Fargeovergang */
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  color: white;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+img {
+  width: 20%;
+}
+
+button {
+  margin: 20px;
+  border: solid;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #66a6ff;
+}
+
+/* 📱 Mobilvennlig layout */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem 0;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}
