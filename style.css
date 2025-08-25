@@ -33,6 +33,11 @@ button {
   background-color: #66a6ff;
 }
 
+input {
+  justify-content: center;
+  align-items: center;
+}
+
 /* 📱 Mobilvennlig layout */
 @media (max-width: 768px) {
   header {
